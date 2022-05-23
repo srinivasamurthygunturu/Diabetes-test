@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun May 22 20:46:33 2022
+
+@author: schum
+"""
+
 import json
 import os
 

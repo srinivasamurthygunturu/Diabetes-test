@@ -1,32 +1,68 @@
-# import requirements needed
-from flask import Flask, render_template
+# -*- coding: utf-8 -*-
+"""
+Created on Sun May 22 20:44:46 2022
+
+@author: schum
+"""
+
+from requests import request
+import pickle
+import numpy as np
+from flask import Flask, render_template, request,redirect,url_for
+
 from utils import get_base_url
 
-# setup the webserver
-# port may need to be changed if there are multiple flask servers running on same server
+
 port = 12345
 base_url = get_base_url(port)
+
+
+
 
 # if the base url is not empty, then the server is running in development, and we need to specify the static folder so that the static files are served
 if base_url == '/':
     app = Flask(__name__)
 else:
     app = Flask(__name__, static_url_path=base_url+'static')
+    
+    
 
-# set up the routes and logic for the webserver
-@app.route(f'{base_url}')
+@app.route('/')
+
 def home():
     return render_template('index.html')
+ 
 
-# define additional routes here
-# for example:
-# @app.route(f'{base_url}/team_members')
-# def team_members():
-#     return render_template('team_members.html') # would need to actually make this page
+@app.route('/predict',methods=['POST'])
 
-if __name__ == '__main__':
-    # IMPORTANT: change url to the site where you are editing this file.
-    website_url = 'url'
+def predict():
     
-    print(f'Try to open\n\n    https://{website_url}' + base_url + '\n\n')
-    app.run(host = '0.0.0.0', port=port, debug=True)
+    
+    Pregnancies = request.form['Pregnancies']
+    Glucose = request.form['Glucose']
+    BloodPressure = request.form['BloodPressure']
+    SkinThickness = request.form['SkinThickness']
+    Insulin = request.form['Insulin']
+    BMI = request.form['BMI']
+    DiabetesPedigreeFunction = request.form['DiabetesPedigreeFunction']
+    Age = request.form['Age']
+    
+    
+    features= [Pregnancies, Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age]
+    
+    loaded_model = pickle.load(open("rf_model.sav", "rb"))
+    
+    pred = loaded_model.predict((np.array([features])))
+    
+    if pred[0]==1:
+        val="Diabetic"
+    else:
+        val="Not Diabetic"
+    source = "The model classifies you as "+val+" "
+    return render_template("index.html",pred=source)
+   
+
+
+
+if __name__ =="__main__":
+    app.run()
