@@ -1,0 +1,87 @@
+]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ [K]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ python3 -m main
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 125-563-349
+127.0.0.1 - - [29/May/2022 00:37:15] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2022 00:37:17] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ [K]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ git ad[K[Kstatus
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   main.py[m
+	[31mmodified:   requirements.txt[m
+	[31mdeleted:    rf_model.sav[m
+	[31mmodified:   static/Precision.html[m
+	[31mmodified:   static/Recall.html[m
+	[31mmodified:   static/assets/img/blank_img1.jpg[m
+	[31mmodified:   static/assets/img/blank_img2.jpg[m
+	[31mmodified:   static/assets/img/blank_img3.jpg[m
+	[31mmodified:   static/assets/img/blank_img4.png[m
+	[31mmodified:   static/assets/img/blank_img5.jpg[m
+	[31mmodified:   static/assets/img/blank_img6.jpg[m
+	[31mmodified:   static/assets/img/home_background.png[m
+	[31mdeleted:    static/assets/img/portfolio-4.jpg[m
+	[31mmodified:   static/css/styles.css[m
+	[31mmodified:   static/feature_importance.html[m
+	[31mmodified:   static/gender_ratio.html[m
+	[31mmodified:   static/heatmap.html[m
+	[31mmodified:   static/missing_values.html[m
+	[31mmodified:   templates/index.html[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m../.2022-05-28-195418.term-0.term[m
+	[31m../2022-05-28-195418.term[m
+	[31m.2022-05-23-182213.term-0.term[m
+	[31m.2022-05-23-185940.term-0.term[m
+	[31m.2022-05-23-214853.term-0.term[m
+	[31m.2022-05-23-215110.term-0.term[m
+	[31m.2022-05-28-182404.term-0.term[m
+	[31m.2022-05-28-182530.term-0.term[m
+	[31m.2022-05-28-195459.term-0.term[m
+	[31m.2022-05-28-203654.term-0.term[m
+	[31m.main.py-0-python3.term[m
+	[31m2022-05-23-182213.term[m
+	[31m2022-05-23-185940.term[m
+	[31m2022-05-23-214853.term[m
+	[31m2022-05-23-215110.term[m
+	[31m2022-05-28-182404.term[m
+	[31m2022-05-28-182530.term[m
+	[31m2022-05-28-195459.term[m
+	[31m2022-05-28-203654.term[m
+	[31mrf_classifier.sav[m
+	[31mstatic/assets/img/ML Model.png[m
+	[31mstatic/assets/img/evaluation.png[m
+	[31mstatic/assets/img/form.png[m
+	[31mstatic/assets/img/form1.png[m
+	[31mstatic/assets/img/form2.png[m
+	[31mstatic/assets/img/imbalanced.png[m
+	[31mstatic/assets/img/input_features.png[m
+	[31mstatic/assets/img/linkedin.jpg[m
+	[31mstatic/assets/img/target_feature.png[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ g

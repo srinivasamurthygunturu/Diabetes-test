@@ -34,6 +34,8 @@
   --bs-gray-800: #343a40;
   --bs-gray-900: #212529;
   --bs-primary: #1D809F;
+  --bs-moddesc:#006699;
+  --bs-moddesc2: #0088cc;
   --bs-secondary: #ecb807;
   --bs-success: #198754;
   --bs-info: #0dcaf0;
@@ -41,6 +43,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
+  --bs-moddesc-rgb: 0, 102, 153;
+  --bs-moddesc2-rgb: 0, 136, 204;
   --bs-primary-rgb: 29, 128, 159;
   --bs-secondary-rgb: 236, 184, 7;
   --bs-success-rgb: 25, 135, 84;
@@ -304,6 +308,10 @@ svg {
 table {
   caption-side: bottom;
   border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  border-color:white;
+  width:100%
 }
 
 caption {
@@ -325,12 +333,20 @@ tr,
 td,
 th {
   border-color: inherit;
-  border-style: solid;
-  border-width: 0;
+  border-style:solid;
+  border-width: 1;
+
+}
+
+data_table{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 label {
   display: inline-block;
+  width: 150px;
+  text-align: right;
 }
 
 button {
@@ -350,6 +366,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  padding: 5px,10px;
 }
 
 button,
@@ -599,8 +616,11 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  
+  
   height: auto;
+  width:auto;
+  
 }
 
 .img-thumbnail {
@@ -7726,6 +7746,8 @@ textarea.form-control-lg {
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important;
 }
 
+
+
 .text-success {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-success-rgb), var(--bs-text-opacity)) !important;
@@ -7811,6 +7833,18 @@ textarea.form-control-lg {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
+
+.bg-moddesc {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-moddesc-rgb), var(--bs-bg-opacity)) !important;
+}
+
+
+.bg-moddesc2 {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-moddesc2-rgb), var(--bs-bg-opacity)) !important;
+}
+
 
 .bg-secondary {
   --bs-bg-opacity: 1;
@@ -11297,6 +11331,7 @@ html {
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
+  
 }
 
 .content-section-heading h2, .content-section-heading .h2 {
@@ -11416,43 +11451,52 @@ html {
 .menu-toggle:hover {
   background: #343a40;
 }
-
+/*
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
-
+*/
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/form1.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
+ 
 }
 
 .input_form label{
 
     float: left;
     clear: left;
-	  margin: 8px 0;
+	  margin: 15px 0;
     width: 25%;
     text-align: left;
-	align-content: center;
+	align-content: left;
 	font-weight: bold;
   
-	padding-left: 300px
+
 	
 }
 
+
+
+
+
 input[type=text], select {
-  width: 25%;
+  width: 15%;
   margin: 8px 0;
 
-  float: center
+  
 }
 
 .input_form {
-	 display: inline-block;
-	 align-content: center
+	
+  text-align: left;
+ 
+  
+  
 }
 
 .callout h2, .callout .h2 {
@@ -11614,3 +11658,4 @@ footer.footer .logo {
   padding: 50px;
   margin: 50px
 }
+

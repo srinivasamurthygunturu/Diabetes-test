@@ -18,39 +18,133 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
         
     </head>
+
     <body id="page-top">
         
-        <!-- Navigation-->
-        <a class="menu-toggle rounded" href="#"><i class="fas fa-bars"></i></a>
-        <nav id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand"><a href="#page-top">Menu</a></li>
-                <li class="sidebar-nav-item"><a href="#page-top">Home</a></li>
-                <li class="sidebar-nav-item"><a href="#about">Predicition</a></li>
-                <li class="sidebar-nav-item"><a href="#services">Data Description</a></li>
-                <li class="sidebar-nav-item"><a href="#portfolio">Collabratoes</a></li>
-                <li class="sidebar-nav-item"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+       
+
+
+
+
+
+
         <!-- Header-->
         <header class="masthead d-flex align-items-center">
             
             <div class="container px-4 px-lg-5 text-center">
 				
-                <h1 class="mb-1">Diabetes Detection</h1>
-                <h3 class="mb-5"><em>Detect Diabetes using Machine Learning Framework</em></h3>
+                <h1 class="mb-1" style="padding-right: 175px; align-items: center;">Diabetes Detection</h1>
+                <h3 class="mb-5" style="padding-right: 175px; align-items: center;"><em>Detect Diabetes using Machine Learning Framework</em></h3>
+                <h5 class="mb-5" style="padding-right: 175px; align-items: center;"> <i>Diabetes, a major metabolic problem, can be caused by age, obesity, lack of exercise, hereditary diabetes, living style, poor food, high blood pressure, and other factors. As a result, the entire body system can be harmed, resulting in diseases of the heart, kidneys, eye, and other organs. As a result, early detection and treatment are necessary to prevent illnesses. Here we attempt to solve this problem using  Machine Learning techniques</i></h5>
 
-                <h3 class="mb-5"><em> {{pred}} </em></h3>
-
-                <a class="btn btn-primary btn-xl" href="#prediction">Get Started!</a>
-                
+                <h3 class="text-secondary mb-0" style="padding-right: 175px; align-items: center;"><em> {{pred}} </em></h3>
+                <br>
+                <div style="padding-right: 175px;">
+                    <a class="btn btn-primary btn-xl" href="#prediction">Get Started!</a>
+                </div>
                 
             </div>
         </header>
         <!-- About-->
+
+
+        <!-- Data Decription-->
+        <section class="content-section bg-moddesc2 text-white text-center" id="data_description">
+            <div class="container px-4 px-lg-5">
+                <div class="content-section-heading">
+                    <h2>Data Description</h2>
+                    <p>Number of Records in the dataset are 786 and a total of 8 Independent features were used</p>
+                    <br>
+                    <table classs="data_table" > 
+                        <tr>
+                          <th>Feature Name</th>
+                          <th>Description</th>
+                          <th>Minimum</th>
+                          <th>Maximum</th>
+                          <th>Mean</th>
+                          <th>Standard Deviation</th>
+                        </tr>
+                        <tr>
+                          <td>Pregnancies</td>
+                          <td>Number of times Pregencies Occured</td>
+                          <td>0</td>
+                          <td>17</td>
+                          <td>4</td>
+                          <td>3</td>
+                        </tr>
+                        <tr>
+                            <td>Glucose</td>
+                            <td>Plasma glucose concentration</td>
+                            <td>0</td>
+                            <td>199</td>
+                            <td>120.8</td>
+                            <td>31.9</td>
+                        </tr>
+                        <tr>
+                            <td>BloodPressure</td>
+                            <td>Diastolic Bloos pressure (mm Hg)</td>
+                            <td>0</td>
+                            <td>122</td>
+                            <td>69.1</td>
+                            <td>19.3</td>
+                        </tr>
+
+                        <tr>
+                            <td>SkinThickness</td>
+                            <td>Trisep skinfold thickness (mm)</td>
+                            <td>0</td>
+                            <td>99</td>
+                            <td>20.5</td>
+                            <td>15.5</td>
+                        </tr>
+
+                        <tr>
+                            <td>Insulin</td>
+                            <td>2-Hour serum insulin (mu U/ml)</td>
+                            <td>0</td>
+                            <td>99</td>
+                            <td>20.5</td>
+                            <td>15.5</td>
+                        </tr>
+
+                        <tr>
+                            <td>BMI</td>
+                            <td>Body Mass Index</td>
+                            <td>0</td>
+                            <td>67.10</td>
+                            <td>31.9</td>
+                            <td>7.8</td>
+                        </tr>
+
+                        <tr>
+                            <td>DiabetesPedigreeFunction</td>
+                            <td>Likelihood of Diabetes</td>
+                            <td>0</td>
+                            <td>2.4</td>
+                            <td>0.4</td>
+                            <td>0.33</td>
+                        </tr>
+
+                        <tr>
+                            <td>Age</td>
+                            <td>Age in years</td>
+                            <td>21</td>
+                            <td>81</td>
+                            <td>33.2</td>
+                            <td>11.4</td>
+                        </tr>
+                        
+                      </table>
+                      <br>
+                      <p><i>*Note:The above table illustrates raw descriptive statistics of the dataset. </i></p>
+                      <br>
+                      <p><i>The dataset also contains null values for a few features and we perform mean Imputation to handle this problem </i></p>
+                </div>
+            </div>
+        </section>
         
         <!-- Services-->
-        <section class="content-section bg-primary text-white text-center" id="services">
+        <section class="content-section bg-moddesc2 text-white text-center" id="services">
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading">
                     
@@ -58,17 +152,17 @@
                 </div>
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-screen-smartphone"></i></span>
+                        <span><img class="service-icon rounded-circle mx-auto mb-3" src="{{ url_for('static', filename='assets/img/ML Model.png') }}" alt="..."></span>
                         <h4><strong>Model</strong></h4>
                         <p class="text-faded mb-0">Random Forests- Ensembled  Technique</p>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-pencil"></i></span>
+                        <span ><img class="service-icon rounded-circle mx-auto mb-3" src="{{ url_for('static', filename='assets/img/input_features.png') }}" alt="..."></span>
                         <h4><strong>Independent Features</strong></h4>
-                        <p class="text-faded mb-0">A total of 9 continuous input features were used </p>
+                        <p class="text-faded mb-0">A total of 8 continuous input features were used </p>
                     </div>
                     <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-like"></i></span>
+                        <span ><img class="service-icon rounded-circle mx-auto mb-3" src="{{ url_for('static', filename='assets/img/target_feature.png') }}" alt="..."></span>
                         <h4><strong>Tagregt Variable</strong></h4>
                         <p class="text-faded mb-0">
                             Diabetic / Non - Diabetic
@@ -76,7 +170,7 @@
                         </p>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <span class="service-icon rounded-circle mx-auto mb-3"><i class="icon-mustache"></i></span>
+                        <span><img class="service-icon rounded-circle mx-auto mb-3" src="{{ url_for('static', filename='assets/img/imbalanced.png') }}" alt="..."></span>
                         <h4><strong>SMOTE</strong></h4>
                         <p class="text-faded mb-0">Synthetic Minority Oversampling Technoque is used to handle class imbalance problem</p>
                     </div>
@@ -85,22 +179,22 @@
         </section>
         <!-- Callout-->
         <section class="callout" id="prediction">
-            <div class="container px-4 px-lg-5 text-center">
+            <div class="container px-4 px-lg-5 text-center" >
                 <h2 class="mx-auto mb-5">
-                        Enter input values
+                        Enter the following values
                 </h2>
 
                 <div class="input_form">
                     <form action="{{url_for('predict')}}" method="POST">          
                       
-					  <label style="color:white">Pregnancies</label> <input type="text" id="Pregnancies" name="Pregnancies"><br>
-                      <label>Glucose</label> <input type="text" id="Glucose" name="Glucose"><br>
-                      <label>BloodPressure</label><input type="text" id="BloodPressure" name="BloodPressure"><br>
-                      <label>SkinThickness</label><input type="text" id="SkinThickness" name="SkinThickness"><br>
-                      <label>Insulin</label><input type="text" id="Insulin" name="Insulin"><br>
-                      <label>BMI</label><input type="text" id="BMI" name="BMI"><br>
-                      <label>DiabetesPedigreeFunction</label><input type="text" id="DiabetesPedigreeFunction" name="DiabetesPedigreeFunction"><br>
-                      <label>Age</label><input type="text" id="Age" name="Age"><br><br>
+					  <label >Pregnancies</label> <input type="text" id="Pregnancies" name="Pregnancies" placeholder="Number of times pregnant"><br>
+                      <label>Glucose</label> <input type="text" id="Glucose" name="Glucose"  placeholder="Plasma glucose concentration"><br>
+                      <label>BloodPressure</label><input type="text" id="BloodPressure" name="BloodPressure" placeholder="Diastolic blood pressure (mm Hg)"><br>
+                      <label>SkinThickness</label><input type="text" id="SkinThickness" name="SkinThickness" placeholder="Triceps skin fold thickness(mm)"> <br>
+                      <label>Insulin</label><input type="text" id="Insulin" name="Insulin" placeholder="2-Hour serum insulin (mu U/ml)"> <br>
+                      <label>BMI</label><input type="text" id="BMI" name="BMI" placeholder="Body mass index (weight in kg/(height in m)^2)"><br>
+                      <label>DiabetesPedigreeFunction</label><input type="text" id="DiabetesPedigreeFunction" name="DiabetesPedigreeFunction" placeholder="Likelihood of Diabetes - Enter between (0,1)"><br>
+                      <label>Age</label><input type="text" id="Age" name="Age" placeholder="Age in years - between 15 to 90 "><br><br>
                       <input class="btn btn-primary btn-xl" type="submit" value="Submit">
 					  
                     </form>
@@ -109,35 +203,67 @@
                   
             </div>
         </section>
+
 		<!-- Interpretation-->
-        <section class="content-section bg-primary text-white text-center" id="services">
-            <div class="container px-4 px-lg-8">
-                 <div class="row gx-4 gx-lg-5">
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        
-                        <iframe class="responsive-page" src="/static/feature_importance.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="10" ></iframe>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-                        
-                        <iframe class="responsive-page" src="/static/gender_ratio.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="10" ></iframe>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-                       
-                        <iframe class="responsive-page" src="/static/heatmap.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="10" ></iframe>
-                    </div>
-                    <div class="col-lg-3 col-md-6">
-                        
-                        <iframe class="responsive-page" src="/static/missing_values.html" name="targetframe" allowTransparency="true" scrolling="no" frameborder="10" ></iframe>
-                    </div>
+        <section class="content-section bg-white text-black text-center" id="services">
+            <div >
+                 <div class = "boxx_left">
+                    <h3>Missing Values</h3>
+                    <iframe  width="700" height="500" title="Correlation Table of Features" src="{{url_for('static', filename='missing_values.html')}}" ></iframe> <br>
                 </div>
+
+                <div >
+                    <h3>Heatmap</h3>
+                    <iframe  width="700" height="600" title="Correlation Table of Features" src="{{url_for('static', filename='heatmap.html')}}" ></iframe> <br>
+                </div>
+                <br>
+                <div class = "boxx_left">
+                    <h3>Target Feature Ratio</h3>
+                    <iframe  width="700" height="500" title="Correlation Table of Features" src="{{url_for('static', filename='gender_ratio.html')}}" ></iframe> <br>
+                </div>
+
+                <div >
+                    <h3>Feature Importance plot</h3>
+                    <iframe  width="700" height="500" title="Correlation Table of Features" src="{{url_for('static', filename='feature_importance.html')}}" ></iframe> <br>
+                </div>
+
+                <div class = "boxx_left">
+                    <h3>Precission</h3>
+                    <iframe  width="700" height="500" title="Correlation Table of Features" src="{{url_for('static', filename='Precision.html')}}" ></iframe> <br>
+                </div>
+
+                <div >
+                    <h3>Recall</h3>
+                    <iframe  width="700" height="500" title="Correlation Table of Features" src="{{url_for('static', filename='Recall.html')}}" ></iframe> <br>
+                </div>
+
+               
+
+                
+
+
+
             </div>
         </section>
+
+
+        <!-- Conclusion-->
+        <section class="content-section bg-primary text-white text-center" id="conclusion_id">
+            <div class="container px-4 px-lg-8">
+                <h3 class="text-secondary mb-0">Summary</h3>
+                <p>After performing extensive EDA on the data set a significant number of interesting insights were discovered out of which class imbalance problem is the most important charaterisic of this dataset. We used SMOTE tecchnique to overcome this problem. To achieve our goal we had build 5 different models namely Logistic Regression, KNN, Decision Trees, Random Forests,SVM. Random Forest Classifier out performed the rest of the models and had the highest precission value. From this exercise we can conclude that it is possible to predict diabetes using non invasie methods aswell. However, the performce of the model can be imporoved by augmenting more meaningful data. </p>
+            </div>
+        </section>
+
+
+
         <!-- Portfolio-->
         <section class="content-section" id="portfolio">
             <div class="container px-4 px-lg-5">
                 <div class="content-section-heading text-center">
-                    <h3 class="text-secondary mb-0">Portfolio</h3>
-                    <h2 class="mb-5">THE TEAM!</h2>
+                    <h2 class="text-secondary mb-0">THE TEAM</h2>
+                    <br>
+                    <!--<h2 class="mb-5">THE TEAM!</h2>-->
                 </div>
                 <div class="row gx-0">
                     <div class="col-lg-6">
@@ -220,15 +346,21 @@
         
         
         <!-- Footer-->
+        
         <footer class="footer text-center">
             <div class="container px-4 px-lg-5">
                 <ul class="list-inline mb-5">
                     <li class="list-inline-item">
-                        <a class="social-link rounded-circle text-white" href="#!"><i class="icon-social-github"></i></a>
+                        <a class="social-link rounded-circle text-white" href="https://github.com/srinivasamurthygunturu/Diabetes-test"><i class="icon-social-github"></i></a>
                     </li>
                     <li class="list-inline-item">
                         <a href="https://www.ai-camp.org/" ><img class="logo" height=65 width=65 src="{{ url_for('static', filename='assets/img/ai-camp-logo.jpg') }}">  </a>
                     </li>
+
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/company/ai-camp/" ><img class="logo" height=65 width=65 src="{{ url_for('static', filename='assets/img/linkedin.jpg') }}">  </a>
+                    </li>
+
                 </ul>
                 <p class="text-muted small mb-0">Copyright &copy; AI Camp 2022</p>
             </div>
@@ -243,3 +375,40 @@
     </body>
 
 </html>
+
+<style>
+
+label {
+  
+  flex-direction: row;
+  justify-content: flex-start;
+
+  width: 400px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+input {
+  height: 40px;
+  flex: 0 0 500px;
+  margin-left: 125px;
+  width: 500px;
+}
+
+
+.container input {
+   width: 30%;
+}
+
+.boxx_right{
+    float:right;
+}
+
+.boxx_left{
+    float:left;
+    margin-left: 125px;
+}
+
+
+
+</style>

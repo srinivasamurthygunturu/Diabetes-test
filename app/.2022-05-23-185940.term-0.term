@@ -1,0 +1,36 @@
+]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ [K]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ python4[K3 -m main
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 893-630-086
+127.0.0.1 - - [23/May/2022 23:00:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [23/May/2022 23:00:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/May/2022 23:00:21] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/May/2022 23:00:21] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/blank_img1.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [23/May/2022 23:00:21] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/blank_img2.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [23/May/2022 23:00:21] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/blank_img3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [23/May/2022 23:00:21] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/blank_img5.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [23/May/2022 23:00:21] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/blank_img6.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [23/May/2022 23:00:21] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/home_background.png HTTP/1.1" 200 -
+127.0.0.1 - - [23/May/2022 23:00:21] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/bg-callout.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [23/May/2022 23:00:21] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/ai-camp-logo.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [23/May/2022 23:00:25] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/assets/favicon.ico HTTP/1.1[0m" 404 -

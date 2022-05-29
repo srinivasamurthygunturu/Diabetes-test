@@ -1,0 +1,68 @@
+]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ [K]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ python3 -m main a[K
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 893-630-086
+127.0.0.1 - - [28/May/2022 22:26:19] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:19] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/css/styles.css HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:20] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/May/2022 22:26:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/ML%20Model.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/input_features.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/target_feature.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/imbalanced.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/blank_img2.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/blank_img3.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/blank_img1.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/blank_img5.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/home_background.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/blank_img6.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/ai-camp-logo.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/linkedin.jpg HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/assets/img/form1.png HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/missing_values.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:20] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/heatmap.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:21] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/gender_ratio.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:21] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/Precision.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:21] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/feature_importance.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:21] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/static/Recall.html HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:28] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/assets/favicon.ico HTTP/1.1[0m" 404 -
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.23.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.23.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+127.0.0.1 - - [28/May/2022 22:26:58] "POST /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:26:59] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.23.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.23.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+127.0.0.1 - - [28/May/2022 22:27:44] "POST /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:27:45] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+^[[1;2D       127.0.0.1 - - [28/May/2022 22:42:14] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:42:14] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/May/2022 22:43:14] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 22:43:15] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ [K]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ ]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ 

@@ -5,12 +5,12 @@ Created on Sun May 22 20:44:46 2022
 @author: schum
 """
 
-from requests import request
+#from requests import request
 import pickle
 import numpy as np
-from flask import Flask, render_template, request,redirect,url_for
-
+from flask import Flask, render_template, request
 from utils import get_base_url
+
 
 
 port = 12345
@@ -27,13 +27,13 @@ else:
     
     
 
-@app.route('/')
+@app.route(f'{base_url}')
 
 def home():
     return render_template('index.html')
  
 
-@app.route('/predict',methods=['POST'])
+@app.route(f'{base_url}',methods=['POST'])
 
 def predict():
     
@@ -50,7 +50,7 @@ def predict():
     
     features= [Pregnancies, Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age]
     
-    loaded_model = pickle.load(open("rf_model.sav", "rb"))
+    loaded_model = pickle.load(open("rf_classifier.sav", "rb"))
     
     pred = loaded_model.predict((np.array([features])))
     
@@ -65,4 +65,8 @@ def predict():
 
 
 if __name__ =="__main__":
-    app.run()
+    
+    website_url = 'https://cocalc4.ai-camp.dev/'
+    print(base_url)
+    print(f'Try to open\n\n    https://cocalc4.ai-camp.dev/' + base_url + '\n\n')
+    app.run(host = '0.0.0.0', port=port, debug=True)

@@ -1,0 +1,25 @@
+]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ [K]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ python3 -m main
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/projects/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/Diabetes-test/app/main.py", line 72, in <module>
+    app.run(host = '0.0.0.0', port=port, debug=True)
+  File "/projects/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/.local/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/projects/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/.local/lib/python3.8/site-packages/werkzeug/serving.py", line 991, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ 

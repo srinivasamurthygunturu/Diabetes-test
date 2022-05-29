@@ -1,0 +1,44 @@
+]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ [K]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ pyto[Khon3 -m main
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 125-563-349
+127.0.0.1 - - [28/May/2022 23:56:10] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 23:56:11] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [28/May/2022 23:59:58] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [28/May/2022 23:59:59] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/May/2022 00:02:46] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2022 00:02:46] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/May/2022 00:26:23] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2022 00:26:24] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.23.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.23.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+127.0.0.1 - - [29/May/2022 00:27:34] "POST /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2022 00:27:34] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [29/May/2022 00:30:17] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [29/May/2022 00:30:17] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+Killed
+]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ ]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ 

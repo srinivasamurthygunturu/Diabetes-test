@@ -1,0 +1,54 @@
+]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ [K]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ python -[K[K3 -m main
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 893-630-086
+127.0.0.1 - - [23/May/2022 22:23:15] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/May/2022 22:23:26] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/May/2022 22:23:32] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1[0m" 404 -
+Killed
+]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ python3 -m main
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 893-630-086
+127.0.0.1 - - [23/May/2022 22:29:45] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [23/May/2022 22:29:50] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1[0m" 404 -

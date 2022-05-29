@@ -1,0 +1,103 @@
+]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ [K]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ python3 -m main
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 893-630-086
+127.0.0.1 - - [24/May/2022 01:51:28] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [24/May/2022 01:51:28] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [24/May/2022 01:51:51] "[35m[1mPOST /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/projects/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/.local/lib/python3.8/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/projects/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/.local/lib/python3.8/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/projects/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/.local/lib/python3.8/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/.local/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/projects/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/.local/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/projects/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/.local/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/.local/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/.local/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/projects/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/.local/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/projects/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/Diabetes-test/app/main.py", line 41, in predict
+    Pregnancies = request.form['Pregnancies']
+AttributeError: 'function' object has no attribute 'form'
+127.0.0.1 - - [24/May/2022 01:51:51] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+127.0.0.1 - - [24/May/2022 01:51:51] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+127.0.0.1 - - [24/May/2022 01:51:51] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+127.0.0.1 - - [24/May/2022 01:51:51] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+127.0.0.1 - - [24/May/2022 01:51:51] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+ * Detected change in '/projects/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/Diabetes-test/app/main.py', reloading
+ * Restarting with stat
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 893-630-086
+^C]0;~/Diabetes-test/app[01;34m~/Diabetes-test/app[00m$ python3 -m main
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+ * Running on http://172.17.0.2:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+/c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+Try to open
+
+    https://cocalc4.ai-camp.dev//c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 893-630-086
+127.0.0.1 - - [24/May/2022 01:54:03] "GET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [24/May/2022 01:54:03] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator DecisionTreeClassifier from version 0.23.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator RandomForestClassifier from version 0.23.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+/usr/local/lib/python3.8/dist-packages/sklearn/base.py:329: UserWarning: Trying to unpickle estimator RandomizedSearchCV from version 0.23.2 when using version 1.0.2. This might lead to breaking code or invalid results. Use at your own risk. For more info please refer to:
+https://scikit-learn.org/stable/modules/model_persistence.html#security-maintainability-limitations
+  warnings.warn(
+127.0.0.1 - - [24/May/2022 01:54:26] "POST /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/ HTTP/1.1" 200 -
+127.0.0.1 - - [24/May/2022 01:54:26] "[33mGET /c9ae51c9-cd7d-4aa9-9d5d-642a2ac49979/port/12345/js/scripts.js HTTP/1.1[0m" 404 -
